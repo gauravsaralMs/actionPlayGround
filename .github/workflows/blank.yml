@@ -27,11 +27,8 @@ jobs:
       run: echo Hello, world!
         
     - name: Azure CLI Action
-      run: |
-        az -h
-        az extension add -n azure-devops -y
-        az devops -h
-        az devops project list --org https://dev.azure.com/gsaralprivate
+      run: .\runMe.ps1
+      shell: powershell
       env:
         AZURE_DEVOPS_EXT_PAT: ${{ secrets.GSARALPRIVATEPAT }}
 
