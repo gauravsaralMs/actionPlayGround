@@ -37,6 +37,6 @@ jobs:
       with:
         inlinescript: |
           az -h
-          az extension install -n azure-devops
+          az extension add -n azure-devops -y
           az devops -h
 
