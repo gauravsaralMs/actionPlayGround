@@ -1,0 +1,11 @@
+{
+  "summary": {
+    "title": "ChatOps service on GHAE",
+    "owner": "gauravsaralms",
+    "description": "Currently GitHub provides integration with Slack and MsTeams.\n\nThe aim of this project is to provide the same level of integration solution in GHAE.\n\nThe current Slack and MsTeams integration is a Moda service, which can be seen in the slack repository (the service in this repository is referred as ChatOps service for simplicity)."
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": []
+  }
+}
